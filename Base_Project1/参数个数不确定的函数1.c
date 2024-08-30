@@ -9,6 +9,7 @@ void fun(int m, ...)
 	printf("%d  ",va_arg(cssz, int));
 	printf("%d  \n",va_arg(cssz, int));
 }
+
 void fun1(int m, ...)
 {
 	va_list cssz;
